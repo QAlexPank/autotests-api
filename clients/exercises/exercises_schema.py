@@ -19,29 +19,6 @@ class ExerciseSchema(BaseModel):
     estimated_time: str = Field(alias="estimatedTime")
 
 
-class GetExerciseResponseSchema(BaseModel):
-    """
-    Описание структуры ответа на получение задания..
-    """
-    exercise: ExerciseSchema
-
-
-class GetExercisesQuerySchema(BaseModel):
-    """
-    Описание структуры запроса на получение списка заданий.
-    """
-    model_config = ConfigDict(populate_by_name=True)
-
-    course_id: str = Field(alias="courseId")
-
-
-class GetExercisesResponseSchema(BaseModel):
-    """
-    Описание структуры ответа на получение списка заданий.
-    """
-    exercises: list[ExerciseSchema]
-
-
 class CreateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание задания.
@@ -62,6 +39,29 @@ class CreateExerciseResponseSchema(BaseModel):
     Описание структуры ответа создания задания.
     """
     exercise: ExerciseSchema
+
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение задания.
+    """
+    exercise: ExerciseSchema
+
+
+class GetExercisesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка заданий.
+    """
+    exercises: list[ExerciseSchema]
+
+
+class GetExercisesQuerySchema(BaseModel):
+    """
+    Описание структуры запроса на получение списка заданий.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    course_id: str = Field(alias="courseId")
 
 
 class UpdateExerciseRequestSchema(BaseModel):

@@ -5,15 +5,15 @@ from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 
 
-def assert_update_course_response(
-        request: UpdateCourseRequestSchema,
-        response: UpdateCourseResponseSchema
+def assert_create_course_response(
+        request: CreateCourseRequestSchema,
+        response: CreateCourseResponseSchema
 ):
     """
-    Проверяет, что ответ на обновление курса соответствует данным из запроса.
+    Проверяет, что ответ на создание курса соответствует запросу.
 
-    :param request: Исходный запрос на обновление курса.
-    :param response: Ответ API с обновленными данными курса.
+    :param request: Исходный запрос на создание курса.
+    :param response: Ответ API с данными курса.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(response.course.title, request.title, "title")
@@ -21,6 +21,16 @@ def assert_update_course_response(
     assert_equal(response.course.min_score, request.min_score, "min_score")
     assert_equal(response.course.description, request.description, "description")
     assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
+    assert_equal(
+        response.course.preview_file.id,
+        request.preview_file_id,
+        "preview_file_id"
+    )
+    assert_equal(
+        response.course.created_by_user.id,
+        request.created_by_user_id,
+        "created_by_user_id"
+    )
 
 
 def assert_course(actual: CourseSchema, expected: CourseSchema):
@@ -60,15 +70,15 @@ def assert_get_courses_response(
         assert_course(get_courses_response.courses[index], create_course_response.course)
 
 
-def assert_create_course_response(
-        request: CreateCourseRequestSchema,
-        response: CreateCourseResponseSchema
+def assert_update_course_response(
+        request: UpdateCourseRequestSchema,
+        response: UpdateCourseResponseSchema
 ):
     """
-    Проверяет, что ответ на создание курса соответствует запросу.
+    Проверяет, что ответ на обновление курса соответствует данным из запроса.
 
-    :param request: Исходный запрос на создание курса.
-    :param response: Ответ API с данными курса.
+    :param request: Исходный запрос на обновление курса.
+    :param response: Ответ API с обновленными данными курса.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(response.course.title, request.title, "title")
@@ -76,13 +86,3 @@ def assert_create_course_response(
     assert_equal(response.course.min_score, request.min_score, "min_score")
     assert_equal(response.course.description, request.description, "description")
     assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
-    assert_equal(
-        response.course.preview_file.id,
-        request.preview_file_id,
-        "preview_file_id"
-    )
-    assert_equal(
-        response.course.created_by_user.id,
-        request.created_by_user_id,
-        "created_by_user_id"
-    )

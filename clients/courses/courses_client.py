@@ -11,14 +11,15 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
+    def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
-        Метод получения списка курсов.
+        Метод создания курса.
 
-        :param query: Pydantic-модель  с userId.
+        :param request: Pydantic-модель с title, maxScore, minScore, description, estimatedTime,
+        previewFileId, createdByUserId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
+        return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
 
     def get_course_api(self, course_id: str) -> Response:
         """
@@ -29,22 +30,21 @@ class CoursesClient(APIClient):
         """
         return self.get(f"/api/v1/courses/{course_id}")
 
-    def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
-        Метод создания курса.
+        Метод получения списка курсов.
 
-        :param request: Pydantic-модель  с title, maxScore, minScore, description, estimatedTime,
-        previewFileId, createdByUserId.
+        :param query: Pydantic-модель с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
+        return self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
 
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
 
         :param course_id: Идентификатор курса.
-        :param request: Pydantic-модель  с title, maxScore, minScore, description, estimatedTime.
+        :param request: Pydantic-модель с title, maxScore, minScore, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(

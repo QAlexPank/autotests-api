@@ -12,15 +12,6 @@ class FilesClient(APIClient):
     Клиент для работы с /api/v1/files
     """
 
-    def get_file_api(self, file_id: str) -> Response:
-        """
-        Метод получения файла.
-
-        :param file_id: Идентификатор файла.
-        :return: Ответ от сервера в виде объекта httpx.Response
-        """
-        return self.get(f"/api/v1/files/{file_id}")
-
     def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """
         Метод создания файла.
@@ -33,6 +24,15 @@ class FilesClient(APIClient):
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
             files={"upload_file": open(request.upload_file, 'rb')}
         )
+
+    def get_file_api(self, file_id: str) -> Response:
+        """
+        Метод получения файла.
+
+        :param file_id: Идентификатор файла.
+        :return: Ответ от сервера в виде объекта httpx.Response
+        """
+        return self.get(f"/api/v1/files/{file_id}")
     
     def delete_file_api(self, file_id: str) -> Response:
         """

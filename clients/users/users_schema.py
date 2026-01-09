@@ -36,6 +36,13 @@ class CreateUserResponseSchema(BaseModel):
     user: UserSchema
 
 
+class GetUserResponseSchema(BaseModel):
+    """
+    Описание структуры запроса получения пользователя.
+    """
+    user: UserSchema
+
+
 class UpdateUserRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление пользователя.
@@ -51,12 +58,5 @@ class UpdateUserRequestSchema(BaseModel):
 class UpdateUserResponseSchema(BaseModel):
     """
     Описание структуры ответа обновления пользователя.
-    """
-    user: UserSchema
-
-
-class GetUserResponseSchema(BaseModel):
-    """
-    Описание структуры запроса получения пользователя.
     """
     user: UserSchema

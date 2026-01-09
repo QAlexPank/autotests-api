@@ -17,20 +17,28 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.courses
 @pytest.mark.regression
 class TestCourses:
-    def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
-        # Формируем данные для обновления
-        request = UpdateCourseRequestSchema()
-        # Отправляем запрос на обновление курса
-        response = courses_client.update_course_api(function_course.response.course.id, request)
+    def test_create_course(
+            self,
+            courses_client: CoursesClient,
+            function_user: UserFixture,
+            function_file: FileFixture
+    ):
+        # Формируем данные для создания
+        request = CreateCourseRequestSchema(
+            preview_file_id=function_file.response.file.id,
+            created_by_user_id=function_user.response.user.id
+        )
+        # Отправляем запрос на создание курса
+        response = courses_client.create_course_api(request)
         # Преобразуем JSON-ответ в объект схемы
-        response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
+        response_data = CreateCourseResponseSchema.model_validate_json(response.text)
 
-        # Проверяем статус-код ответа
+        # Проверяем, что код ответа 200 OK
         assert_status_code(response.status_code, HTTPStatus.OK)
-        # Проверяем, что данные в ответе соответствуют запросу
-        assert_update_course_response(request, response_data)
+        # Проверяем, что данные в ответе соответствуют запросу на создание
+        assert_create_course_response(request, response_data)
 
-        # Валидируем JSON-схему ответа
+        # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
 
@@ -56,21 +64,18 @@ class TestCourses:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
 
-    def test_create_course(
-            self,
-            courses_client: CoursesClient,
-            function_user: UserFixture,
-            function_file: FileFixture
-    ):
-        request = CreateCourseRequestSchema(
-            preview_file_id=function_file.response.file.id,
-            created_by_user_id=function_user.response.user.id
-        )
+    def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
+        # Формируем данные для обновления
+        request = UpdateCourseRequestSchema()
+        # Отправляем запрос на обновление курса
+        response = courses_client.update_course_api(function_course.response.course.id, request)
+        # Преобразуем JSON-ответ в объект схемы
+        response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
 
-        response = courses_client.create_course_api(request)
-        response_data = CreateCourseResponseSchema.model_validate_json(response.text)
-
+        # Проверяем статус-код ответа
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_create_course_response(request, response_data)
+        # Проверяем, что данные в ответе соответствуют запросу на обновление
+        assert_update_course_response(request, response_data)
 
+        # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
