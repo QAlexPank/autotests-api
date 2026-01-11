@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cf192a3f-d828-4937-aa3e-32a6904aea27' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI3LjAxNjQxNiIsInVzZXJfaWQiOiI3YzQ4ZjI0Yi0xNWY5LTQ2MTEtODI4YS0yMjhlN2RmMmFiMmYifQ.3vKvn540dDveOcn1a669Ud_bmvj55UJCo_SzVTBZEx0' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Точно.","maxScore":70,"minScore":25,"orderIndex":8,"description":"Спорт правильный бегать мера. Настать отметить развернуться протягивать. Металл район привлекать назначить.","estimatedTime":"3 days"}'

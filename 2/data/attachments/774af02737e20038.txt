@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI2LjA5OTQ1OCIsInVzZXJfaWQiOiIwNDliOWQ1Mi05YTk0LTQxODItYmM4NC04MWFlNWFjNDU0YzEifQ.6HIhdljXxukvR91wlB_nnZWZ1C79vFBettZeFSWka6o' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Упор.","courseId":"3cf05c1c-1089-40b6-a052-38444a7e4fbd","maxScore":77,"minScore":49,"orderIndex":95,"description":"Дьявол прежде танцевать указанный мотоцикл скрытый дыхание. Выраженный запретить дальний термин сходить свежий металл. Ручей шлем фонарик место важный.","estimatedTime":"3 hours"}'

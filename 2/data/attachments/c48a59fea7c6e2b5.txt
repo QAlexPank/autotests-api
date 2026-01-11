@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjIzLjc3NjMwNyIsInVzZXJfaWQiOiIzYzU4YWZiNy0yNjdiLTQ2MGQtYmViOC0yZTJmMzA4MzA5MjgifQ.GOivI1ki_wDTytwbrEFu3usDIHiowGl8FtwLHX8_AJk' \
+  -H 'content-length: 592' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Потрясти мгновение задрать сомнительный.","maxScore":53,"minScore":11,"description":"Монета художественный присесть багровый спичка правление витрина.\nНеправда чем собеседник успокоиться грустный свежий поезд. Инфекция некоторый отдел граница пространство.","estimatedTime":"6 days","previewFileId":"523173cb-199b-4493-bb32-6647e0ae5a12","createdByUserId":"3c58afb7-267b-460d-beb8-2e2f30830928"}'

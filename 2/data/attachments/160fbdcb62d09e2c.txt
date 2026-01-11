@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjIzLjIxNzg5NCIsInVzZXJfaWQiOiJiNzczNjgwOS1jMTQzLTQwZTItYjEwMS1lZGViMWExMTE0MDEifQ.f6nWS653Cs3ysQ7cfcNPX8pavGMp3__d5CEuLOYSyhQ' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бабочка космос.","courseId":"3963251a-a84d-4ff2-af0b-613539c8e291","maxScore":84,"minScore":5,"orderIndex":30,"description":"Командующий сравнение помолчать жестокий перебивать. Неожиданно сынок спорт коллектив.","estimatedTime":"7 days"}'

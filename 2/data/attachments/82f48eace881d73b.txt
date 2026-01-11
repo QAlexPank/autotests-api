@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI2LjA5OTQ1OCIsInVzZXJfaWQiOiIwNDliOWQ1Mi05YTk0LTQxODItYmM4NC04MWFlNWFjNDU0YzEifQ.6HIhdljXxukvR91wlB_nnZWZ1C79vFBettZeFSWka6o' \
+  -H 'content-length: 605' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Анализ горький заработать теория рассуждение.","maxScore":93,"minScore":15,"description":"Правление художественный доставать торопливый магазин запретить. Непривычный порода направо покинуть решение тусклый холодно естественный. Кпсс коробка песенка передо мусор.","estimatedTime":"6 weeks","previewFileId":"8813f873-b48d-405d-927e-c83c6ea0bef2","createdByUserId":"049b9d52-9a94-4182-bc84-81ae5ac454c1"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/023c6d04-3c69-434b-8a30-24ad32aa2eab
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/023c6d04-3c69-434b-8a30-24ad32aa2eab
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:98 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Кидать художественный.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 37
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Тревога тысяча горький угроза столетие инвалид подробность выраженный. Болото уничтожение услать потянуться умирать. Советовать равнодушный приходить скрытый прелесть.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 10 days
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

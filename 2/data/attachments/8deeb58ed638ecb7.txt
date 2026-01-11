@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI3LjAxNjQxNiIsInVzZXJfaWQiOiI3YzQ4ZjI0Yi0xNWY5LTQ2MTEtODI4YS0yMjhlN2RmMmFiMmYifQ.3vKvn540dDveOcn1a669Ud_bmvj55UJCo_SzVTBZEx0' \
+  -H 'content-length: 483' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Около печатать магазин.","maxScore":58,"minScore":36,"description":"Налево правление полюбить ответить тюрьма юный блин. Ставить иной добиться. Спорт поговорить при засунуть ботинок сравнение передо.","estimatedTime":"5 minutes","previewFileId":"7c8116bc-a9f8-4c96-aa67-9d547e9b213a","createdByUserId":"7c48f24b-15f9-4611-828a-228e7df2ab2f"}'

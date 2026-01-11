@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/023c6d04-3c69-434b-8a30-24ad32aa2eab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI1LjgyMjQ1NiIsInVzZXJfaWQiOiJjYmY5ZTE4NC05NzE0LTQ2YWUtOTNlZi00NjlhZGI4MGMzNGUifQ.cPRQQpg9Oa7zUvJmGwbTLhvBLYup8hrosB51mS04HWI' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Кидать художественный.","maxScore":95,"minScore":37,"description":"Тревога тысяча горький угроза столетие инвалид подробность выраженный. Болото уничтожение услать потянуться умирать. Советовать равнодушный приходить скрытый прелесть.","estimatedTime":"10 days"}'

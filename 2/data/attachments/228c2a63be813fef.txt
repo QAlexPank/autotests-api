@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI0Ljk2MzYxOSIsInVzZXJfaWQiOiI3NzMyNzZjMy1jN2VlLTQ3NjYtOGI1OC0yMjRiODEyZTJjZWEifQ.R5MbFAn8gs-oazsA8TgP7xtMTySghEVAkSjp7iDi8zY' \
+  -H 'content-length: 517' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Доставать очутиться.","maxScore":90,"minScore":30,"description":"Около блин следовательно.\nПомимо что слать правильный. Тусклый передо присесть заложить проход. Заявление князь кпсс более сохранять возмутиться спалить.","estimatedTime":"8 days","previewFileId":"ed4f18bd-8fe5-4734-9878-98ebbcc315d0","createdByUserId":"773276c3-c7ee-4766-8b58-224b812e2cea"}'

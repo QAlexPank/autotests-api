@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI3LjU2MzI4NyIsInVzZXJfaWQiOiI3MTgzMjVmMS04NjhhLTQ2M2YtOGUxOS1jOGQ4YTRiMDBmNGYifQ.07eeUBuMloCj5nWh7R7qMm0gWxxAndkhDPbdokoiyQA' \
+  -H 'content-length: 558' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Провал.","maxScore":54,"minScore":3,"description":"Мелочь радость головной боец. Запретить совещание уточнить да выражение отражение расстегнуть.\nСтавить полюбить еврейский юный ответить пространство. Прошептать помимо монета термин каюта.","estimatedTime":"6 days","previewFileId":"02dbc161-01e2-4b79-9de7-182cfffe8466","createdByUserId":"718325f1-868a-463f-8e19-c8d8a4b00f4f"}'

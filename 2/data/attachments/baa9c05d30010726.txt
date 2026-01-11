@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjIzLjIxNzg5NCIsInVzZXJfaWQiOiJiNzczNjgwOS1jMTQzLTQwZTItYjEwMS1lZGViMWExMTE0MDEifQ.f6nWS653Cs3ysQ7cfcNPX8pavGMp3__d5CEuLOYSyhQ' \
+  -H 'content-length: 562' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Близко мягкий космос выраженный.","maxScore":63,"minScore":36,"description":"Художественный похороны сверкающий витрина. Механический витрина мальчишка поговорить поезд зарплата. Бок дьявол даль возможно. Костер намерение стакан освободить.","estimatedTime":"6 minutes","previewFileId":"2bd4d4f1-4235-4309-883d-09438c93fa57","createdByUserId":"b7736809-c143-40e2-b101-edeb1a111401"}'

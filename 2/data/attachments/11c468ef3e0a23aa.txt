@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI0Ljk2MzYxOSIsInVzZXJfaWQiOiI3NzMyNzZjMy1jN2VlLTQ3NjYtOGI1OC0yMjRiODEyZTJjZWEifQ.R5MbFAn8gs-oazsA8TgP7xtMTySghEVAkSjp7iDi8zY' \
+  -H 'content-length: 516' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Социалистический какой.","courseId":"69b276dd-1472-403f-bcb4-f0a4c720b3ce","maxScore":92,"minScore":17,"orderIndex":88,"description":"Естественный блин постоянный налево покидать налево руководитель. Головка тысяча рай палец болото деловой карандаш.\nПрисесть деловой сравнение очко. Решетка анализ печатать.","estimatedTime":"4 weeks"}'

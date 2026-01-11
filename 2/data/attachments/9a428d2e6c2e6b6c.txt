@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjI0LjM2NzYwNyIsInVzZXJfaWQiOiI4YmY5NzEzYi1kZDgxLTRhYzItYjk2ZS1jYzRiNTQxMTM4MjEifQ.rp7D2Qdsgj6JvVCsHSyr6X9-kBaUPDAGq18PDEzSdyY' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Написать.","maxScore":62,"minScore":6,"description":"Штаб рассуждение исполнять решение экзамен. Предоставить рай прошептать исследование ведь расстройство.","estimatedTime":"10 minutes","previewFileId":"5dae1a9d-8546-40b7-8822-b7792d568963","createdByUserId":"8bf9713b-dd81-4ac2-b96e-cc4b54113821"}'
