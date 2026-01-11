@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjUwLjAxMjAzMyIsInVzZXJfaWQiOiIzYzEwOTZiMi05ZjlhLTRkNWEtODI3YS05OWExMzM1YWY3M2MifQ.9LXzcph3jFpytlp4Ovh-VKiztRgi66dUr4rMrS2a3JU' \
+  -H 'content-length: 601' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задрать пятеро дыхание боец скрытый.","maxScore":79,"minScore":33,"description":"Банк солнце потом близко госпожа космос премьера отметить. Миллиард функция механический ложиться редактор вообще. Степь недостаток легко грустный сопровождаться ученый рассуждение.","estimatedTime":"6 hours","previewFileId":"5a101d33-8853-4540-add5-8b53ecf55cd7","createdByUserId":"3c1096b2-9f9a-4d5a-827a-99a1335af73c"}'

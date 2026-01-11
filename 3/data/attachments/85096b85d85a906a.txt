@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjQ4LjI1NjEyMSIsInVzZXJfaWQiOiI3YmYzYzA4OC01MWYyLTQ0MjUtODBiNi03Mzg3ODYxMmQ0MjMifQ.sC_lL4yxzsy5vDOe9eoNC8qvk8rFUfWRDQluGlL-o3g' \
+  -H 'content-length: 501' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прежний вздрагивать.","maxScore":56,"minScore":2,"description":"Дошлый темнеть намерение холодно. Четко мрачно бегать вывести призыв. Бок поколение солнце редактор. Мера горький четко полностью процесс темнеть.","estimatedTime":"3 days","previewFileId":"ad7c6454-7d73-41ba-8568-c7ee2d190108","createdByUserId":"7bf3c088-51f2-4425-80b6-73878612d423"}'

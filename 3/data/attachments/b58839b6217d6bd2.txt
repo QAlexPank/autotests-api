@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjUxLjI0MzI1NyIsInVzZXJfaWQiOiJmMDg4YzdiNi02ZTBiLTRhMDAtYTI3Ny1hZGFjNTEwYTg2YmEifQ.adRo4WetzRA34CQCaftg8ydsXETyzdPWHIzFCdir12M' \
+  -H 'content-length: 501' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Добиться тяжелый мягкий близко.","maxScore":82,"minScore":33,"description":"Рот кольцо призыв необычный. Господь через хозяйка бетонный. Рота художественный о сбросить правление неожиданный дурацкий миллиард.","estimatedTime":"7 minutes","previewFileId":"25cb5cdb-d8ff-41d5-ae42-574a648c357e","createdByUserId":"f088c7b6-6e0b-4a00-a277-adac510a86ba"}'

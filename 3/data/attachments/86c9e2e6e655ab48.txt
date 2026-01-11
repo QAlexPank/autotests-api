@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjQ3LjY5ODc5OCIsInVzZXJfaWQiOiIyYWE2OGVlYS1hZjcxLTQ1MTgtOThlZi0yYjc0YjkyYTNkNTEifQ.Frj2CFh7CcoepXWI8uWVmgP32epkPtde68E1MQ5rDxI' \
+  -H 'content-length: 462' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Термин спичка.","maxScore":86,"minScore":18,"description":"Вывести дорогой очутиться вчера кожа коллектив очко. Провинция слишком выразить факультет. Выражаться способ крутой о расстегнуть.","estimatedTime":"5 days","previewFileId":"80c699e2-ced5-4ea2-80e5-a5555ce0739a","createdByUserId":"2aa68eea-af71-4518-98ef-2b74b92a3d51"}'

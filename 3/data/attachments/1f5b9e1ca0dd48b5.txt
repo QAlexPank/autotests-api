@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjUxLjc4OTU1MCIsInVzZXJfaWQiOiJmMDNmZGYwZS03NjVkLTQwMzQtYjdlNS03ZDQyMTAyZGE2ZDgifQ.ApHsELAVnJtHi0tUHlzD53gDw17jFuAkkpVwaYVOqkQ' \
+  -H 'content-length: 540' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Цепочка серьезный.","maxScore":65,"minScore":29,"description":"Полюбить ложиться отдел горький художественный. Материя разнообразный дрогнуть инвалид рай вчера вскинуть. Назначить скользить четыре господь спалить армейский бровь.","estimatedTime":"7 weeks","previewFileId":"af6815a3-9749-42c7-b8b5-ae003a9b64cf","createdByUserId":"f03fdf0e-765d-4034-b7e5-7d42102da6d8"}'

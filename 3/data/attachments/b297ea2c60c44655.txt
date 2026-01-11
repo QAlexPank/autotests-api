@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU3OjUxLjUyMTQ2OCIsInVzZXJfaWQiOiI2MzFlYTQ0My02NWQ3LTQxMDYtOWUzNy01OTEzYzk2YmNmYjMifQ.loCNtJX9wUpM7R6jisYRwboWrb5NRRlNlvn4nC421Rg' \
+  -H 'content-length: 595' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Цель монета хлеб освободить какой.","maxScore":58,"minScore":6,"description":"Услать мера полевой товар четко. Ученый руководитель тюрьма зеленый банк одиннадцать факультет.\nСледовательно ведь конструкция мелочь зима. Наткнуться направо сынок смелый слишком.","estimatedTime":"5 minutes","previewFileId":"627fc734-e864-42ba-a58d-564d92fd32fa","createdByUserId":"631ea443-65d7-4106-9e37-5913c96bcfb3"}'
