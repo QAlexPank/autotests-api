@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjM3Ljk5NzQwOSIsInVzZXJfaWQiOiI0MmE0ODFiNy05NDk1LTRlOWYtYjE5ZC0yYWNhZmY3MGFhN2EifQ.zlnWDKfJsqXMnWvESKu5SxFYWNIbADLiGWB_KUQshNs' \
+  -H 'content-length: 556' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Светило отъезд сравнение магазин.","maxScore":79,"minScore":12,"description":"Что выраженный разуметься сопровождаться передо решение социалистический. Падать нервно медицина палец. Налево указанный нервно карандаш бегать лететь покидать.","estimatedTime":"3 days","previewFileId":"a3fac8ad-92af-44c4-93cd-91961e97100d","createdByUserId":"42a481b7-9495-4e9f-b19d-2acaff70aa7a"}'

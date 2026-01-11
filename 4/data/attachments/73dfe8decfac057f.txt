@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjM4LjU1NTI4MSIsInVzZXJfaWQiOiI1YjA3YTU3Ny1iZmJiLTRhZmMtODdmYi1iN2VkYWMyMGI2MjMifQ.ba9YyrOfRZuPWbyeEx0r81dXMZ3qy_WML7bKQG8sVfY' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выбирать сохранять лететь.","maxScore":65,"minScore":48,"description":"Премьера умирать плясать. Сбросить освободить армейский четко.","estimatedTime":"7 minutes","previewFileId":"f42256e1-9ad4-47a0-8714-f530bc7faac9","createdByUserId":"5b07a577-bfbb-4afc-87fb-b7edac20b623"}'

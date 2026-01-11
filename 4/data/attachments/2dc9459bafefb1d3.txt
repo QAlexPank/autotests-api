@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjQxLjIzNjEwMyIsInVzZXJfaWQiOiJjMmZjM2Y2OC1hMGRlLTQ1YmItOGIzMi0wYTE0Y2IxNjBhZjAifQ.owNj_oyjm67cn43qAjZiItkVOmZ9x5_EwUw3okjIeJE' \
+  -H 'content-length: 575' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Означать передо.","maxScore":64,"minScore":42,"description":"Бок чувство упорно налоговый. Анализ рота заложить изредка ложиться.\nВисеть жить манера чувство возмутиться одиннадцать. Костер мелочь проход вздрагивать девка. Ремень мелочь зеленый ягода.","estimatedTime":"8 days","previewFileId":"ac933fb9-9a37-42a3-a0b2-ca57a1634c6f","createdByUserId":"c2fc3f68-a0de-45bb-8b32-0a14cb160af0"}'

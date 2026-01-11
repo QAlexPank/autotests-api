@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjQxLjUzNjU2OSIsInVzZXJfaWQiOiJlMjZmZTI5Mi1jNGVhLTRlMjItOGRkYi0yNWI1OTI5MWE3NmQifQ.2Xjq_xvpnDib2qLsRc6rC27UK_nacVKFW6kVU_JGCUk' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выбирать провал.","courseId":"00cfa382-0d1d-49b0-a0b0-675ed65d2540","maxScore":92,"minScore":9,"orderIndex":78,"description":"Природа выраженный манера дьявол заявление. Плод поймать грустный спорт левый зарплата. Совет затянуться способ секунда металл.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjM5LjE1NzAzNSIsInVzZXJfaWQiOiIwNjk2NjFjOS01OWFjLTRhMGYtYWE3OS0xZjNjZGU5NzMxNWYifQ.Bz-x3lMa820-IPjpbaUKXlLSINeNXfw-qf26C6u1j34' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Разуметься.","maxScore":96,"minScore":6,"description":"Умолять умирать коричневый актриса бак сомнительный провал. Четыре лапа труп освободить даль лапа дорогой поезд.","estimatedTime":"8 minutes","previewFileId":"bbea56b9-29cf-4b25-886e-303c9c59083c","createdByUserId":"069661c9-59ac-4a0f-aa79-1f3cde97315f"}'

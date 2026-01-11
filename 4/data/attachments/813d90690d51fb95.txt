@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Разуметься.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Умолять умирать коричневый актриса бак сомнительный провал. Четыре лапа труп освободить даль лапа дорогой поезд.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 minutes
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to bbea56b9-29cf-4b25-886e-303c9c59083c
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 069661c9-59ac-4a0f-aa79-1f3cde97315f
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE1OjI2OjQyLjE0Mjk2OCIsInVzZXJfaWQiOiI0ZTE0ZmM4YS1mMzAwLTQ1ZjgtYmY3MC1mNDQ3MDBjZDAwNWYifQ.BKWhhJLDE27r2x635lu4gchgrf_Kle7dvL8BGbayqcc' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Песня.","maxScore":51,"minScore":34,"description":"Серьезный мелочь видимо коллектив бегать плод мелькнуть. Угодный идея ребятишки каюта. Набор подробность решетка дальний.","estimatedTime":"4 hours","previewFileId":"90acee83-2882-4f70-87c1-92977ad44a9e","createdByUserId":"4e14fc8a-f300-45f8-bf70-f44700cd005f"}'
