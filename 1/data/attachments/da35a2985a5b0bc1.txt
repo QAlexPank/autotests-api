@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA3Ljk5ODY2MSIsInVzZXJfaWQiOiJlODYwOWIzYi1lNjVkLTQzMjgtYTVjMy0wYmRiZDg1MzUyMzUifQ.ACv5b0rKZKi_gZpcSkmQ0GRlFIuskaCRF2yg12CvGnQ' \
+  -H 'content-length: 602' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Четыре труп палата граница.","maxScore":87,"minScore":35,"description":"Еврейский исполнять неожиданный призыв непривычный наступать что. Славный выражение изба. Место передо ход мальчишка хлеб витрина правление. Рот коричневый рот неожиданно призыв хлеб неудобно.","estimatedTime":"9 hours","previewFileId":"703f77ab-b22f-4691-a3bb-9db6c9bed5bf","createdByUserId":"e8609b3b-e65d-4328-a5c3-0bdbd8535235"}'

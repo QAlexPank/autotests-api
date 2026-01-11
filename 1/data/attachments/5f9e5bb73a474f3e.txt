@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA2LjI0NzkzNyIsInVzZXJfaWQiOiJhN2MxOTY3ZC1kMGMxLTQzNDAtOGI3ZS00ZTE0Mzg0NzNmZjYifQ.KzWoIq1SVhyq-MQ3ouKpR6XKWs_oXNSE9ft578zM9yY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Редактор зачем.","maxScore":74,"minScore":44,"description":"Спешить торговля человечек решение. Покидать падать растеряться. Штаб товар научить.","estimatedTime":"2 hours","previewFileId":"f0433605-27e8-41e1-b64c-a3ca5901b4cf","createdByUserId":"a7c1967d-d0c1-4340-8b7e-4e1438473ff6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA5LjgwMDkxNCIsInVzZXJfaWQiOiJhMjM3OGIyMC02ZDY2LTQ2MzEtOWM1NC1iYzU2Njg2OTczZmQifQ.iU8LHNdd_pwJfvf48cHoO8p9dCK0fcMP7D1A90cH7IM' \
+  -H 'content-length: 553' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Господь ленинград.","courseId":"bd9d249c-aa40-4cbd-a9f7-f410e5d07c8f","maxScore":52,"minScore":20,"orderIndex":40,"description":"Привлекать горький фонарик. Запретить около недостаток сохранять картинка миг.\nЛегко четыре подробность столетие ребятишки неожиданно палка поколение. Материя мелькнуть разводить угроза задержать.","estimatedTime":"5 minutes"}'

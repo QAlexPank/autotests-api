@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA3LjQ0NDgzMCIsInVzZXJfaWQiOiI5OTYzNjNiNC1lYTY0LTRlM2UtYTg0OS1kMzFjNmFmYzBlZjkifQ.dIw8UW4mi7MzhzJt9zCbDvxaPLmU1v-7C_HzqM_UVU4' \
+  -H 'content-length: 536' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Желание.","maxScore":60,"minScore":23,"description":"Невыносимый равнодушный мягкий. Настать вариант заведение столетие инфекция смеяться дремать. Единый выражение носок терапия. Отражение поставить налоговый конструкция аллея.","estimatedTime":"6 hours","previewFileId":"85bb5d05-e226-487c-b232-dff28ee10b03","createdByUserId":"996363b4-ea64-4e3e-a849-d31c6afc0ef9"}'

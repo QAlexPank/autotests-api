@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/fce9950e-08a4-42e8-99d9-f666bf5b4946' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA5LjI0OTk3NyIsInVzZXJfaWQiOiJkOTZkYjY1Mi00MDMxLTQ3YzMtYTUwNS0xN2NiNmUxN2Q4OGIifQ.jfiVxsLrQHZQbj1uPnLxSFyLEPXLD7r-hKJy62bHOxs' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Освобождение.","maxScore":98,"minScore":17,"orderIndex":51,"description":"Невозможно головной секунда поезд возмутиться выдержать порт ложиться. Князь прежний добиться смеяться потом. Жестокий хозяйка достоинство услать монета развитый.","estimatedTime":"2 hours"}'

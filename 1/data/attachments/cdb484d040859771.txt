@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA1LjM4MDY0NCIsInVzZXJfaWQiOiI2ZTYyZTRhOS1mYjQzLTQ0MTEtOTk4YS02MWY4YjFmNTg3MjEifQ.AzVxgBQC8QSrTI1a9o7yS6oYVvy0wvzuv4uXkyim220' \
+  -H 'content-length: 537' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Торопливый дремать.","maxScore":79,"minScore":34,"description":"Головка мотоцикл ставить выраженный академик. Банк ленинград ставить применяться чем угроза.\nНеобычный посидеть валюта. А покидать угодный более славный заведение.","estimatedTime":"6 minutes","previewFileId":"58446f8d-c7a0-41dd-9448-d25d227dbc39","createdByUserId":"6e62e4a9-fb43-4411-998a-61f8b1f58721"}'

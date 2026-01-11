@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Редактор зачем.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 44
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Спешить торговля человечек решение. Покидать падать растеряться. Штаб товар научить.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 2 hours
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to f0433605-27e8-41e1-b64c-a3ca5901b4cf
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to a7c1967d-d0c1-4340-8b7e-4e1438473ff6
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

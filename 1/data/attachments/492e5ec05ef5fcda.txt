@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA5LjI0OTk3NyIsInVzZXJfaWQiOiJkOTZkYjY1Mi00MDMxLTQ3YzMtYTUwNS0xN2NiNmUxN2Q4OGIifQ.jfiVxsLrQHZQbj1uPnLxSFyLEPXLD7r-hKJy62bHOxs' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Наслаждение.","maxScore":88,"minScore":15,"description":"Функция салон штаб рабочий. Торговля мальчишка адвокат запеть основание.","estimatedTime":"2 minutes","previewFileId":"10b1ffd3-b502-49a7-83bc-d2e7e688f7a6","createdByUserId":"d96db652-4031-47c3-a505-17cb6e17d88b"}'

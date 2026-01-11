@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c5e6032d-8956-489a-a656-fee110e64d42
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c5e6032d-8956-489a-a656-fee110e64d42
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:85 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 16418e07-c879-416c-b934-f9a39fb84a34
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Сынок ягода спорт господь промолчать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to c5e6032d-8956-489a-a656-fee110e64d42
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Роса рот заплакать пересечь коммунизм приходить добиться вряд. Совещание пространство палата страсть. Скользить потом бочок темнеть.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 10 minutes
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

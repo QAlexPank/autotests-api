@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fdcc7561-9517-48fd-8566-f55fa49be9e3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTExVDE0OjU0OjA3LjcyMTEwNyIsInVzZXJfaWQiOiIzNzNjNDU0Yi04YTNiLTQ1OTEtYmU2Ny0wYTZhNzY3NjMyODIifQ.3Ah9eFBqgptEFaSD6nYOGjkid0GXkMUZf-iRMTnB8FQ' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Провинция правый полюбить.","maxScore":71,"minScore":14,"description":"Обида палец мотоцикл болото задержать.\nНеожиданный кожа слать приятель естественный тесно. Манера бочок крыса мимо привлекать. Материя человечек сохранять полностью.","estimatedTime":"4 days"}'
