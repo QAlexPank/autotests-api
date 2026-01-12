@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAyOjU5LjUzNzQ0NSIsInVzZXJfaWQiOiI2YTNkMmFkZi1iMDgxLTQyNTQtODFlZi1mNDRlMDczYzgyN2MifQ.Hrtks_k7TDDzZJKl4xlbqr_7fyGSbDqD3W1azggbq70' \
+  -H 'content-length: 507' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ныне июнь страсть.","maxScore":87,"minScore":41,"description":"Наслаждение блин еврейский. Командование грудь отметить поставить бетонный ленинград. Более плод плод столетие актриса строительство скрытый дремать.","estimatedTime":"2 hours","previewFileId":"092031cb-4eba-46ab-9ae0-700858f5d4e9","createdByUserId":"6a3d2adf-b081-4254-81ef-f44e073c827c"}'

@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/5bd11b2c-a9a4-46b0-9544-532d58550670
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/5bd11b2c-a9a4-46b0-9544-532d58550670
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 5bd11b2c-a9a4-46b0-9544-532d58550670
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Плод цель мера.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 0aec76cd-35d9-472a-aacc-812ffc387168
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 49
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Бегать разнообразный потрясти неправда. Слишком крыса зато скользить. Терапия заработать интеллектуальный.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 6 days
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

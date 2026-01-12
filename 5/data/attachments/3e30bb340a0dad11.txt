@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAxLjk1NDMxMSIsInVzZXJfaWQiOiI5YzBmYTdhZC02Y2RjLTRmMDMtYTZiZS1lMDJiMDZhNDBkYzgifQ.17AOIyanIEc23eWW5R3P_Ny8gRf-wjCjG-Nowa5rBJ4' \
+  -H 'content-length: 465' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плавно пространство госпожа.","maxScore":70,"minScore":31,"description":"Спалить миг забирать настать роскошный. Развитый хлеб мера ход ягода. Угроза вчера чувство процесс спорт уронить шлем.","estimatedTime":"5 hours","previewFileId":"d845571e-c04d-43d2-bafe-84c6d0e4545a","createdByUserId":"9c0fa7ad-6cdc-4f03-a6be-e02b06a40dc8"}'

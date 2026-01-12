@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAzLjA4ODM1MCIsInVzZXJfaWQiOiI1ZDc0MWY3MC03ZGYxLTQ5YmUtOTFkOC0yOWU1MjU3YTI3MGIifQ.9Nm3nRzRIQ5jcuNbJP4EUWvc4IO5vdoQ9IxTUA0QmeU' \
+  -H 'content-length: 483' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Функция сверкать парень заведение.","courseId":"39315f21-de2c-4c2b-b124-faaae9b9c1d6","maxScore":95,"minScore":25,"orderIndex":43,"description":"Скрытый изучить материя пространство порода вывести. Труп художественный миф славный. Да что ночь монета неожиданный совет вздрогнуть выражение.","estimatedTime":"3 minutes"}'

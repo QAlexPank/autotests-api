@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAyOjU4LjkzNDM2OSIsInVzZXJfaWQiOiI1YzdlNzM2ZS04ZGI0LTRlY2UtYjFiYi0zYmE5NWJlMmMwYjYifQ.gS1LUH-rGNj-1C8J_sgj7P1tmHeceKx_neN9878kQjA' \
+  -H 'content-length: 467' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Одиннадцать падаль славный лететь горький.","maxScore":70,"minScore":1,"description":"Собеседник пастух металл выражение. Монета заработать конференция успокоиться пламя направо факультет.","estimatedTime":"8 minutes","previewFileId":"18e3ff6a-bf4e-44af-8c84-b0f9788d264d","createdByUserId":"5c7e736e-8db4-4ece-b1bb-3ba95be2c0b6"}'

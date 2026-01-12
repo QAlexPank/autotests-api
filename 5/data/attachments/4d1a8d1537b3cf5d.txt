@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAxLjI4NTA5NiIsInVzZXJfaWQiOiJiMDdlYmU3OC0xOTU4LTRlMTMtYmIyNi1iNDJjNjYwNzM5NGYifQ.7VmSz7wTpvSh-NilqnKVyElm7afZKQGXGCbWm_7qhiQ' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плод цель мера.","courseId":"0aec76cd-35d9-472a-aacc-812ffc387168","maxScore":82,"minScore":49,"orderIndex":24,"description":"Бегать разнообразный потрясти неправда. Слишком крыса зато скользить. Терапия заработать интеллектуальный.","estimatedTime":"6 days"}'

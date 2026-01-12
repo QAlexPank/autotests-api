@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Ныне июнь страсть.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 41
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Наслаждение блин еврейский. Командование грудь отметить поставить бетонный ленинград. Более плод плод столетие актриса строительство скрытый дремать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 2 hours
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 092031cb-4eba-46ab-9ae0-700858f5d4e9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 6a3d2adf-b081-4254-81ef-f44e073c827c
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

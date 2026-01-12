@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d0894d50-a263-464f-b95e-61d402b0935d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAwLjE0NzA2MiIsInVzZXJfaWQiOiJjMDNiZGUxMC00YWI3LTQ2MTQtYmRiZi1mYzlhMzdkZTAzNWEifQ.4BSzBc62hpajgIBonuFtSwH3ynwtny5e6R8nKbhBVOs' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Один.","maxScore":92,"minScore":49,"description":"Вздрагивать изба увеличиваться издали мера через о. Природа умирать строительство коричневый идея.","estimatedTime":"10 minutes"}'

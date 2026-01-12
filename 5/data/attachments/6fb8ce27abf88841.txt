@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAyOjU4LjM3NzQ1MCIsInVzZXJfaWQiOiIxNWJiYmRiZS02YjQ2LTQ3Y2UtYTg0My1iNTdhNzc2YjA2NTMifQ.GnZgziCYFFUPn0utMf3Ceb1y4xrH47-Ux-aiZIIzv2M' \
+  -H 'content-length: 501' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Упорно запретить.","maxScore":88,"minScore":37,"description":"Дьявол команда изба эпоха. Сбросить сверкать расстегнуть роса полюбить направо адвокат.\nСверкающий дружно правление секунда. Хотеть посидеть порог.","estimatedTime":"8 weeks","previewFileId":"e018e43d-2a0c-4755-9576-8d4fd0441c41","createdByUserId":"15bbbdbe-6b46-47ce-a843-b57a776b0653"}'

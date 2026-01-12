@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAxLjI4NTA5NiIsInVzZXJfaWQiOiJiMDdlYmU3OC0xOTU4LTRlMTMtYmIyNi1iNDJjNjYwNzM5NGYifQ.7VmSz7wTpvSh-NilqnKVyElm7afZKQGXGCbWm_7qhiQ' \
+  -H 'content-length: 510' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Палец триста казнь уронить.","maxScore":74,"minScore":22,"description":"Ученый вряд возможно. Шлем выражаться космос мелькнуть. Выражение бочок монета степь.\nЛиловый столетие ягода. Освободить монета важный ученый.","estimatedTime":"3 minutes","previewFileId":"a2b717dd-e924-4214-af3a-d77d97a73321","createdByUserId":"b07ebe78-1958-4e13-bb26-b42c6607394f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAxLjAxNjk2NSIsInVzZXJfaWQiOiIxZjRlMWVlNC05MDU0LTQyOWItYWRkMi1hOWYzZGRhMjU3YjcifQ.D6zqFYL0zhQGG9_JszY_aBsuVwbPXv4odZxtQajoU3k' \
+  -H 'content-length: 539' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Забирать свежий.","maxScore":83,"minScore":9,"description":"Спорт космос изменение вздрогнуть налево демократия кожа. Багровый роскошный угол.\nПлавно поймать болото палка реклама скользить. Необычный тюрьма заработать пасть плод.","estimatedTime":"6 weeks","previewFileId":"2b4ba339-d424-4faf-ab16-fb6e67c59b9f","createdByUserId":"1f4e1ee4-9054-429b-add2-a9f3dda257b7"}'

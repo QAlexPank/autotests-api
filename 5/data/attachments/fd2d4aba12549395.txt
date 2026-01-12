@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjAzOjAwLjE0NzA2MiIsInVzZXJfaWQiOiJjMDNiZGUxMC00YWI3LTQ2MTQtYmRiZi1mYzlhMzdkZTAzNWEifQ.4BSzBc62hpajgIBonuFtSwH3ynwtny5e6R8nKbhBVOs' \
+  -H 'content-length: 562' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плод тяжелый бак.","maxScore":75,"minScore":25,"description":"Пространство мелькнуть цвет князь расстройство непривычный дрогнуть. Парень упорно выдержать растеряться мучительно мотоцикл. Устройство направо сомнительный выраженный терапия.","estimatedTime":"9 minutes","previewFileId":"949c4ca6-9d4c-4fe5-b138-2678aeeb630d","createdByUserId":"c03bde10-4ab7-4614-bdbf-fc9a37de035a"}'
