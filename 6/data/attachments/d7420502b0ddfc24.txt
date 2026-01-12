@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjEzLjczMzY5MyIsInVzZXJfaWQiOiJhOWVlNjNiMy04NzMwLTQyNTQtYjZhMS0xNWVlYWQ2MjFjZjkifQ.Ha2xKln2liQYlCXGit8-IkDb9L4aKnz4d-xfAuOv1Lw' \
+  -H 'content-length: 444' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мелочь войти.","maxScore":79,"minScore":13,"description":"Изредка пламя князь монета.\nПропадать крыса освободить спалить уничтожение возникновение табак. Хлеб отражение командир.","estimatedTime":"10 days","previewFileId":"6bf0b778-4496-4c8b-8849-0d940d0f9434","createdByUserId":"a9ee63b3-8730-4254-b6a1-15eead621cf9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjEyLjU4MTMyOSIsInVzZXJfaWQiOiI4NzExYjBkNS1mNzJhLTRkMWQtYmEzOS01OGI2NDFiNmJiNmEifQ.PhZ-UHdRP4VSBcBq5Mb39vTB0CUS9aikF-SCNN2Dzso' \
+  -H 'content-length: 490' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Слать отражение казнь.","courseId":"247b8fd8-6bb8-4ad5-9851-f6b114b50dfc","maxScore":64,"minScore":45,"orderIndex":65,"description":"Дьявол уничтожение четко возбуждение важный дорогой запеть. Мучительно спасть хотеть тесно демократия бак. Второй редактор господь природа сверкающий выразить.","estimatedTime":"10 minutes"}'

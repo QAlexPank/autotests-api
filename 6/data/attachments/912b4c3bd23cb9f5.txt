@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE1LjQ3NDU4NyIsInVzZXJfaWQiOiJmY2IwNjc4Ni04OTAyLTRlNzEtYjM1YS1iOWQ4MjBiYWU4NGIifQ.I6VVwpTBWmG6_WTRsOSJ3sX-OrXLjJ79Mv7kAlQYhzk' \
+  -H 'content-length: 605' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Кольцо хлеб потрясти.","maxScore":79,"minScore":38,"description":"Госпожа забирать сынок следовательно господь пропаганда теория. Отметить изучить запретить. Сустав юный голубчик невозможно помолчать сынок командующий. Ярко ленинград непривычный мучительно висеть.","estimatedTime":"7 hours","previewFileId":"2079da39-fd67-43ca-be63-698a3d09aa6a","createdByUserId":"fcb06786-8902-4e71-b35a-b9d820bae84b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE1LjE5NTU1NyIsInVzZXJfaWQiOiI4NmU3OGExYy1lZjQ5LTRkOTktODdkMC1iNmVhMmI4ODI0MWIifQ.IBBHG7FdULY-FCbPYPEEUx-2ZIl-sODaJltUzaHhhf0' \
+  -H 'content-length: 564' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Валюта.","maxScore":87,"minScore":34,"description":"Виднеться витрина металл витрина какой освобождение витрина. Труп солнце прелесть армейский угодный терапия экзамен. Изучить написать блин руководитель вытаскивать академик социалистический.","estimatedTime":"8 days","previewFileId":"d7d899e0-8023-432f-9dfd-e294105fce3e","createdByUserId":"86e78a1c-ef49-4d99-87d0-b6ea2b88241b"}'

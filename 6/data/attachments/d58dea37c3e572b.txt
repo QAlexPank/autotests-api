@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE2LjcxODM5OSIsInVzZXJfaWQiOiIxMmY5MDhkMy04NDZmLTQ4ZDgtYjBiNC01MmIzN2M1NGU2MzEifQ.EHPQBLs6UGmHnVKXF9ga_Z_CGOM8QL-b3QpstXx3Du8' \
+  -H 'content-length: 601' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пол сбросить дьявол.","maxScore":98,"minScore":37,"description":"Прежний новый багровый серьезный гулять неожиданно ягода. Дрогнуть господь лиловый низкий один вряд за.\nПокидать сбросить спичка бригада. Банк светило невозможно лиловый кидать мучительно подземный.","estimatedTime":"2 weeks","previewFileId":"877222a9-5da2-469e-9223-a9a05060ebc0","createdByUserId":"12f908d3-846f-48d8-b0b4-52b37c54e631"}'

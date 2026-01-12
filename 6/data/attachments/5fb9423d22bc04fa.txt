@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE3LjI3MjAyNSIsInVzZXJfaWQiOiI1Mzk0NTM3Mi1mZmI5LTRjMjktYjRiYi1hNDI4NmRhMzliNDgifQ.WacI-wwGjHS49OWNcwwKkVAEFQmgKbuGxteIKgeZfkk' \
+  -H 'content-length: 541' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вообще стакан поколение мучительно услать.","courseId":"c4f2e5b0-1cf3-4874-8194-a43fcf338e5f","maxScore":62,"minScore":10,"orderIndex":91,"description":"Цепочка прощение присесть цель госпожа место. Невозможно покинуть пропаганда спасть командир народ вскинуть дурацкий. Мелькнуть салон бок порядок школьный что славный.","estimatedTime":"5 minutes"}'

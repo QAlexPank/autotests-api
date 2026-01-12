@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE3LjI3MjAyNSIsInVzZXJfaWQiOiI1Mzk0NTM3Mi1mZmI5LTRjMjktYjRiYi1hNDI4NmRhMzliNDgifQ.WacI-wwGjHS49OWNcwwKkVAEFQmgKbuGxteIKgeZfkk' \
+  -H 'content-length: 542' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выраженный.","maxScore":83,"minScore":5,"description":"Затянуться постоянный бок второй отъезд роскошный некоторый. Хотеть светило аж лиловый реклама ответить вскинуть. Военный серьезный пол видимо вздрагивать пробовать коммунизм.","estimatedTime":"8 hours","previewFileId":"a9603e6f-5197-45d6-ad73-36e2b84c13cf","createdByUserId":"53945372-ffb9-4c29-b4bb-a4286da39b48"}'

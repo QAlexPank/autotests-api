@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE0LjkxNjAzNyIsInVzZXJfaWQiOiI4MDBjM2Y1Yy1jOGY1LTRmZmEtOTI4Ni0yMWY3MDA1MWJjMTEifQ.MhmTKsmFbY71GqBgFol73boTjETRqICg8JzwdG--bfg' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Носок уронить.","maxScore":73,"minScore":2,"description":"Багровый плясать сходить. Космос отражение куча человечек подземный.\nВолк песенка расстройство экзамен а.","estimatedTime":"8 weeks","previewFileId":"dd81b353-6b35-44b6-b9fd-796cf0f45a17","createdByUserId":"800c3f5c-c8f5-4ffa-9286-21f70051bc11"}'

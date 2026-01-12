@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/99985c6c-a361-4d59-b17c-4e43f086ef9f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE1OjI0OjE1LjQ3NDU4NyIsInVzZXJfaWQiOiJmY2IwNjc4Ni04OTAyLTRlNzEtYjM1YS1iOWQ4MjBiYWU4NGIifQ.I6VVwpTBWmG6_WTRsOSJ3sX-OrXLjJ79Mv7kAlQYhzk' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Новый.","maxScore":89,"minScore":15,"description":"Тысяча штаб багровый потрясти палка военный. Инвалид райком рота манера народ возникновение. Миллиард провинция эффект выражение редактор конференция. Рай ломать спасть болото.","estimatedTime":"3 minutes"}'
