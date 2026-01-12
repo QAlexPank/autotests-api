@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEyLjM1NzQxMiIsInVzZXJfaWQiOiJiMjdiNTRiZi02MzkwLTRjZjItODI1NS0wNjQyOTRmNzIzODEifQ.c8brIxSU1y9xRJNMWkZowK52AczinwYQLLa3RlxDFp4' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Единый функция самостоятельно трясти.","courseId":"8a904d8c-fcdd-4482-b714-754d5d434813","maxScore":65,"minScore":48,"orderIndex":67,"description":"Сравнение функция ребятишки одиннадцать командующий степь. Слишком боец ученый заявление инфекция картинка.","estimatedTime":"8 days"}'

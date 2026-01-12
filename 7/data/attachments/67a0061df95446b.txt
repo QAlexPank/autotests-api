@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEyLjM1NzQxMiIsInVzZXJfaWQiOiJiMjdiNTRiZi02MzkwLTRjZjItODI1NS0wNjQyOTRmNzIzODEifQ.c8brIxSU1y9xRJNMWkZowK52AczinwYQLLa3RlxDFp4' \
+  -H 'content-length: 606' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Присесть армейский космос.","maxScore":70,"minScore":34,"description":"Коричневый подробность прежде тревога жестокий. Слать сынок промолчать выбирать гулять даль.\nЗаплакать зато ответить отметить означать. Скользить интернет конференция кузнец протягивать помимо.","estimatedTime":"8 weeks","previewFileId":"bf27b787-9932-4044-8a4d-37be207632c4","createdByUserId":"b27b54bf-6390-4cf2-8255-064294f72381"}'

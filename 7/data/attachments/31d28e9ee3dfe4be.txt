@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEyLjY0NTY4MiIsInVzZXJfaWQiOiJhMDg5Mjk4NS0zMGNlLTRhM2YtOTRlYy1mNDNhMmVlYTVmY2MifQ.zFNm53RCgDPzmCbPM_ETp-HD-6unkLTPU3QAaj81hBE' \
+  -H 'content-length: 481' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Горький уронить счастье.","maxScore":96,"minScore":24,"description":"Одиннадцать дурацкий настать шлем. Болото костер какой человечек при слать. Степь сбросить остановить сынок увеличиваться природа.","estimatedTime":"2 days","previewFileId":"643a4e17-f1f2-46c3-bbe9-a4fc132777d9","createdByUserId":"a0892985-30ce-4a3f-94ec-f43a2eea5fcc"}'

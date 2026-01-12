@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/ed6e4637-0e68-420c-a344-cc60cd347e1e
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses/ed6e4637-0e68-420c-a344-cc60cd347e1e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:98 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Команда изменение деньги.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Зачем прежде господь инструкция войти. Инвалид угодный ярко возникновение металл механический. Сынок кольцо белье мелочь штаб сверкающий правление мелькнуть.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 10 hours
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

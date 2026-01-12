@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjA5Ljc1MjM4MSIsInVzZXJfaWQiOiI4ZmEyMWFmMi1hYmJkLTQ2YTAtOWU5Ni01YTY3NmRlNDc0MGEifQ.1mFiKXdyQZ762m2OENT6K5d1EYNAzvGoTCcVJWiPoMQ' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Запретить секунда.","maxScore":86,"minScore":16,"description":"Заработать смертельный полоска академик оборот очутиться магазин. Невозможно кузнец один кожа растеряться космос.","estimatedTime":"4 minutes","previewFileId":"5ccc9d4f-3053-4665-91f5-07b143a06659","createdByUserId":"8fa21af2-abbd-46a0-9e96-5a676de4740a"}'

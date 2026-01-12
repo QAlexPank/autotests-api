@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEwLjkwNDAzNiIsInVzZXJfaWQiOiIwYzg1YmMzNC02M2FlLTQyN2QtYmIxYy1lZmUyYzg4YTA1ZWIifQ.nyBH_xY4ZsFB48gn9UbtLIWGK1DOftICvyyIIIxcY1c' \
+  -H 'content-length: 511' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порода самостоятельно написать.","maxScore":95,"minScore":42,"description":"Темнеть возникновение похороны мрачно настать.\nБлин эффект фонарик интернет. Порт прежде исполнять кидать услать. Премьера посидеть угол.","estimatedTime":"8 minutes","previewFileId":"8cee3a87-1ad0-445a-96bd-550b71b7f616","createdByUserId":"0c85bc34-63ae-427d-bb1c-efe2c88a05eb"}'

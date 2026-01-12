@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjE0LjQ1MjI3NCIsInVzZXJfaWQiOiJhZTkzNTViYS1mMzEwLTQwYzEtODY0Yy05NTY0NmE4MmY4ODcifQ.-L-CwTAOcLwqPAjXR3rABzzBAvbpwydBoAlydEaJPkY' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Засунуть.","maxScore":97,"minScore":41,"description":"Угроза оборот князь возникновение человечек призыв табак. Следовательно совещание рабочий зеленый пастух.","estimatedTime":"10 minutes","previewFileId":"bca00fa6-f192-4314-b349-794e43a646fe","createdByUserId":"ae9355ba-f310-40c1-864c-95646a82f887"}'

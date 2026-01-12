@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEwLjMwNzMzMyIsInVzZXJfaWQiOiJhMTgyMjAzMS1kMTA1LTQyZWMtOGI0OC0zMzdiNmJlYzU1NDYifQ.i-wNTx0Igam5zuM--FqA-pPW8mZUhfcqqgcJIu9rwAs' \
+  -H 'content-length: 556' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Самостоятельно.","maxScore":54,"minScore":24,"description":"Более настать отъезд район вытаскивать покинуть. Исследование труп штаб конструкция карандаш эпоха изображать совещание. Полностью иной передо армейский триста заведение команда.","estimatedTime":"3 days","previewFileId":"308cadd7-e342-4cea-b29d-48bc5e6cc66f","createdByUserId":"a1822031-d105-42ec-8b48-337b6bec5546"}'

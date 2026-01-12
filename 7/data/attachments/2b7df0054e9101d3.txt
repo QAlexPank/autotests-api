@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ed6e4637-0e68-420c-a344-cc60cd347e1e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEyLjY0NTY4MiIsInVzZXJfaWQiOiJhMDg5Mjk4NS0zMGNlLTRhM2YtOTRlYy1mNDNhMmVlYTVmY2MifQ.zFNm53RCgDPzmCbPM_ETp-HD-6unkLTPU3QAaj81hBE' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Команда изменение деньги.","maxScore":78,"minScore":23,"description":"Зачем прежде господь инструкция войти. Инвалид угодный ярко возникновение металл механический. Сынок кольцо белье мелочь штаб сверкающий правление мелькнуть.","estimatedTime":"10 hours"}'

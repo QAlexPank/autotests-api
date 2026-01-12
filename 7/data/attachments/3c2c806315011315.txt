@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTEyVDE2OjI4OjEzLjU4OTYwOCIsInVzZXJfaWQiOiI1NGNjMTAyOC0zYTFhLTQxMDMtYWE1Mi03YTVlN2Q4NDljZDgifQ.kyWB9721H8kFO_s0XjEe0rGDGiZRa1DPfmL582gXs2g' \
+  -H 'content-length: 462' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смеяться передо.","maxScore":54,"minScore":4,"description":"Следовательно хлеб хлеб. Зима потом да увеличиваться район запустить. Прошептать интеллектуальный ставить космос бровь умирать.","estimatedTime":"10 weeks","previewFileId":"31d4e522-8860-4c8d-8648-ffff234aa32c","createdByUserId":"54cc1028-3a1a-4103-aa52-7a5e7d849cd8"}'
